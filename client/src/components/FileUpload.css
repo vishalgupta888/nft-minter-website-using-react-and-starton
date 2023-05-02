@@ -1,0 +1,66 @@
+.form{
+    display: flex;
+    flex-direction: column;
+}
+
+.img{
+    height: 350px;
+    padding: auto;
+    margin: auto;
+}
+
+.btn {
+  background-color: #EA4C89;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 35px;
+  width: 180px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 5px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: #db1561;
+}
+input[type=file]::file-selector-button {
+    margin-bottom: 30px;
+    border: none;
+    background: #db1561;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+    transition: background .2s ease-in-out;
+  }
+  
+  input[type=file]::file-selector-button:hover {
+    background: #EA4C89;
+  }
+.transaction{
+  margin-bottom:15px;
+}
+.transaction>a{
+  color:white;
+}
+.img-ctr{
+ padding-right:30px ;
+}
